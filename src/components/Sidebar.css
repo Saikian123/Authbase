@@ -1,25 +1,17 @@
-/* Sidebar default style */
+
 .sidebar {
-    width: 100%; /* Collapsed width */
-    background-color: #211e1e;
-    color: white;
+    /* color: white; */
     height: 100px;
-    padding: 10px;
     transition: width 0.3s ease; /* Smooth transition for expansion */
-    overflow: hidden; /* Hide text when collapsed */
     position: relative;
     }
     /* Expanded sidebar style */
-    .sidebar.expanded {
-    width: 200px; /* Expanded width */
-    height: auto;
-    }
-/* Toggle Button Style */
+
 .toggle-button {
-    background: #ea0f0f;   
+    /* background: #ea0f0f;    */
     color: #ffffff;
     border: none;
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
     cursor: pointer;
     text-align: left;
@@ -34,6 +26,7 @@
     list-style: none;
     padding: 0;
     margin-top: 20px;
+    color: #0a0a0a;
     }
     .menu-list li {
     padding: 10px;
@@ -44,8 +37,22 @@
     }
 
     /* Show items when expanded */
-.sidebar.expanded .menu-list li {
+.sidebar.expand-menu .menu-list li {
     opacity: 1;
     }
-    
+    .sidebar.expand-menu{ 
+    background-color: yellow; 
+    width: 160px;
+    height: 1000px;
+    display: block;
+   
+   }
+   .sidebar.collapse-menu{
+    width: 4.5%;
+    height: 50px;
+    margin-right: 20px;
+ }
+ .icon-size{
+    height: 38px;
+ }
     

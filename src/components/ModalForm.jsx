@@ -6,6 +6,8 @@ function ModalForm({toggleModal}){
   const [name,setName]=useState('');
   const[email,setEmail]=useState('');
   const [phone,setPhone]=useState('');
+
+  //handle form
   const handleSubmit=async(e)=>{
     e.preventDefault();
     const newData={name,email,phone};
@@ -20,8 +22,8 @@ function ModalForm({toggleModal}){
   };
 
   return(
-    <div className="modal">
-      <div className="modal-content">
+    <div className="model">
+      <div className="model-content">
         <h2>Add new Data</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Name"value={name} onChange={(e)=>setName(e.target.value)} />

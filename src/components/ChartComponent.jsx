@@ -26,8 +26,8 @@ function ChartComponents(){
     ]
    }
    return (
-    <div>
-      <h1>Data Chat</h1>
+    <div className="piee">
+      <h1 className='data-chart'>Data Chat</h1>
       <Pie data={data}/>
       
 

@@ -1,4 +1,4 @@
-.modal {
+.model {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@
         }
         }
 
-    .modal-content {
+    .model-content {
         background-color: #ffffff;
         padding: 20px;
         width: 400px;
@@ -34,8 +34,8 @@
         animation: fadeIn 0.3s ease-in-out;
         }
 
-        .modal-content form input[type="text"],
-        .modal-content form input[type="email"] {
+        .model-content form input[type="text"],
+        .model-content form input[type="email"] {
             width: 94%;
             padding: 10px;
             margin: 10px 0;
@@ -44,7 +44,7 @@
             font-size: 16px;
         }
          /* close button*/
-         .modal-content button {
+         .model-content button {
             position: absolute;
             top: 10px;
             right: 10px;
@@ -55,7 +55,7 @@
             }
 
 
-        .modal-content form button[type="submit"] {
+        .model-content form button[type="submit"] {
             padding: 12px;
             background-color: #007bff;
             color: #ffffff;
@@ -68,7 +68,7 @@
             }
 
 
-            .modal-content form button[type="submit"]:hover {
+            .model-content form button[type="submit"]:hover {
             background-color: #0056b3;
             }
            

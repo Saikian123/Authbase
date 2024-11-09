@@ -1,24 +1,33 @@
 
 .app {
 display: flex;
-background-color:bisque;
+/* background-color:#11070126; */
 }
-.sidebar {
-width: 200px;
-background-color: #2d8592;
-color: white;
-padding: 15px;
-}
+
+    .sidebar {
+        width: 1000px;
+        /* background-color: #2d8592; */
+        color: white;
+        }
 .main-content {
 flex: 1;
-padding-left: 30px ;
+/* padding-left: 15px ; */
+margin-top: -8px;
 }
 .header {
 /* display: flex; */
 justify-content: space-between;
 align-items: center;
 }
-.modal {
+.dash-header{
+    
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+
+}
+
+.model {
 position: fixed;
 top: 0;
 left: 0;
@@ -33,4 +42,7 @@ align-items: center;
 background: rgb(144, 218, 17);
 padding: 20px;
 border-radius: 5px;
+}
+.refresh{
+margin-left:10px
 }

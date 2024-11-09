@@ -1,7 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import '../App.css'
 
-function DataTable() {
+function DataTable({toggleModal}) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -25,12 +26,13 @@ function DataTable() {
   }, []);
   
   return(
-    <div>
+    <div className="container mt-4">
       <h1>Data Table</h1>
-      <button onClick={fetchData}>Refresh</button>
+      <button onClick={toggleModal}>Add Table Data</button>
+      <button className="refresh" onClick={fetchData}>Refresh Data after submit</button>
       {loading? <p> loading..</p>:error?<p>{error}</p>:(
-        <table>
-          <thead>
+        <table  className="table table-striped table-hover">
+          <thead >
             <tr>
               <th>Name</th>
               <th>Email</th>
@@ -40,7 +42,7 @@ function DataTable() {
           </thead>
           <tbody>
             {data.map((item)=>(
-              <tr key={item.id}>
+              <tr  key={item.id}>
                 <td>{item.name}</td>
                 <td>{item.email}</td>
                 <td>{item.phone}</td>

@@ -16,7 +16,7 @@ function App(){
       <div className="main-content">
         <Header toggleModal={toggleModal}/>
         <div className="dashboard-content">
-          <DataTable/>
+          <DataTable toggleModal={toggleModal}/>
           <ChartComponents/>
         </div>
       </div>
