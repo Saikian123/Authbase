@@ -1,0 +1,51 @@
+/* Sidebar default style */
+.sidebar {
+    width: 100%; /* Collapsed width */
+    background-color: #211e1e;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    transition: width 0.3s ease; /* Smooth transition for expansion */
+    overflow: hidden; /* Hide text when collapsed */
+    position: relative;
+    }
+    /* Expanded sidebar style */
+    .sidebar.expanded {
+    width: 200px; /* Expanded width */
+    height: auto;
+    }
+/* Toggle Button Style */
+.toggle-button {
+    background: #ea0f0f;   
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.6s;
+    }
+    .toggle-button:hover {
+    background: #666;
+    }
+    
+    /* Menu List */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+    .menu-list li {
+    padding: 10px;
+    white-space: nowrap; /* Prevents text wrapping */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth fade-in */
+
+    }
+
+    /* Show items when expanded */
+.sidebar.expanded .menu-list li {
+    opacity: 1;
+    }
+    
+    

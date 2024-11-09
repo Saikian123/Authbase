@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sai ",
+      "email": "Sai@gmail.com",
+      "phone": "9014733266"
+    },
+    {
+      "id": "2",
+      "name": "Ravi",
+      "email": "Ravi@gmail.com",
+      "phone": "984673802"
+    },
+    {
+      "id": "3",
+      "name": "Sampu",
+      "email": "Sampu@gmail.com",
+      "phone": "124-444-2345"
+    },
+    {
+      "id": "456",
+      "name": "ashok",
+      "email": "ashok@gmail.com",
+      "phone": "123-999-7000"
+    },
+    {
+      "id": "f9cd",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "7f37",
+      "name": "s ",
+      "email": "Sai@gmai.com",
+      "phone": "5151"
+    },
+    {
+      "id": "f2c1",
+      "name": "fgg",
+      "email": "fdg@gmail.com",
+      "phone": "8555"
+    },
+    {
+      "id": "eefc",
+      "name": "Thota Sai Kiran",
+      "email": "saikiranthota26@gmail.com",
+      "phone": "09014733266"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "firts post",
+      "content": "this is my 1 st post"
+    },
+    {
+      "id": "2",
+      "title": "secomd post",
+      "content": "this is my second post"
+    }
+  ]
+}
